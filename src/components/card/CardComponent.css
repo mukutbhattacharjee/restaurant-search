@@ -1,0 +1,67 @@
+.featured-image{
+    height: 100px;
+    width: 100px;
+}
+
+.type{
+    font-size: 11px;
+    color: #89959B;
+}
+
+.name{
+    color: #cb202d;
+    color: #cb202d;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.name:hover{
+    opacity:.7;
+}
+.rating{
+    background: greenyellow;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 25px;
+    width: 36px;
+    line-height: 23px;
+    text-align: center;
+    margin-left: auto;
+}
+.votes{
+
+}
+.locality{
+    font-weight: 700;
+    color: #33373D
+}
+
+.address{
+    color: #89959B;
+}
+
+.sec-label{
+    color: #89959B;
+    font-size: 12px;
+    letter-spacing: .01em;
+}
+
+.sec-value{
+    color: #33373D;
+}
+
+.footer-text{
+    color: #595C60;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.selected-panel{
+    background: lightgrey;
+}
+
+.panel-header{
+    background: white;;
+}

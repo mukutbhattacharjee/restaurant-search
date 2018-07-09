@@ -77,7 +77,7 @@ export class CardComponent extends Component{
                             <p className="votes text-right">{this.state.rest_votes} votes</p>
                         </Col>
                     </Row>
-                    <hr/>
+                    <div className="hr"></div>
                     <Row>
                         <Col md={3}><div className="sec-label text-left">CUISINES:</div></Col>
                         <Col md={9}><div className="sec-value text-left">{this.state.rest_cuisines}</div></Col>
@@ -94,9 +94,9 @@ export class CardComponent extends Component{
                 </Panel.Body>
                 <Panel.Footer>
                     <Row>
-                        <Col md={4} className="footer-text divider-right">Call</Col>
-                        <Col md={4} className="footer-text divider-right">View Menu</Col>
-                        <Col md={4} className="footer-text ">Order Now</Col>
+                        <Col md={4} className="footer-text divider-right"><FontAwesome.FaPhone/>Call</Col>
+                        <Col md={4} className="footer-text divider-right"><FontAwesome.FaClipboard/>View Menu</Col>
+                        <Col md={4} className="footer-text "><FontAwesome.FaShoppingCart/>Order Now</Col>
                     </Row>
                 </Panel.Footer>
             </Panel>

@@ -1,6 +1,7 @@
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
 
 .App {
+  background: rgba(238, 238, 238, 0.973);
   text-align: center;
 }
 

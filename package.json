@@ -16,8 +16,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "config": {
-    "API_KEY": "fa151c6d43f10c5eaa43e09cfa03673c"
   }
 }

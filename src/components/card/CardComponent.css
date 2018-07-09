@@ -26,12 +26,13 @@
     font-size: 18px;
     height: 25px;
     width: 36px;
-    line-height: 23px;
+    line-height: 25px;
     text-align: center;
     margin-left: auto;
 }
 .votes{
-
+    font-size: 12px;
+    color: #89959B;
 }
 .locality{
     font-weight: 700;
@@ -40,6 +41,12 @@
 
 .address{
     color: #89959B;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 .sec-label{
@@ -64,4 +71,12 @@
 
 .panel-header{
     background: white;;
+}
+.divider-right{
+    border-right: 1px solid #ddd;
+}
+
+.hr{
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
 }

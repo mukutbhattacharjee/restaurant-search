@@ -76,7 +76,7 @@ class App extends Component {
 
     searchRestaurant = (restaurantName) => {
         console.log("Searching for " + restaurantName);
-        fetch(this.state.API_URL + "?q=" + restaurantName + "&?count=15", {
+        fetch(this.state.API_URL + "?q=" + restaurantName + "&count=15", {
             method: "GET",
             headers: {
                 'user-key': 'fa151c6d43f10c5eaa43e09cfa03673c',
